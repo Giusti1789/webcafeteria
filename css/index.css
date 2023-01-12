@@ -34,7 +34,7 @@ header {
 .header__superior h2 {
     color: #efb810;
     border-color: aliceblue;
-    -webkit-text-stroke: 2px rgb(253, 253, 253);
+    -webkit-text-stroke: 1px rgb(253, 253, 253);
     /* font-size: 25px; */
 }
 
@@ -51,7 +51,7 @@ header {
 .container__menu {
     width: 100%;
     height: 70px;
-    background: #3a4149;
+    background: #050505;
     padding: 0px 20px;
 }
 
@@ -64,11 +64,14 @@ header {
 
 nav {
     height: 100%;
+    ;
 }
 
 nav>ul {
     height: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul li {
@@ -174,7 +177,7 @@ main {
 }
 
 #contenido h2 {
-    color: aliceblue;
+    color: #efb810;
     font-size: 45px;
     margin: 10px;
     align-items: center;
@@ -217,7 +220,7 @@ main {
 }
 
 :root {
-    --card-height: 65vh;
+    --card-height: 40vh;
     --card-width: calc(var(--card-height)/1.5);
 }
 
