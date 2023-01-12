@@ -21,11 +21,11 @@ header {
 /*HEADER SUPERIOR*/
 
 .header__superior {
+    display: flex;
     max-width: 1200px;
     margin: auto;
-    display: flex;
     align-items: center;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     gap: 30px;
     padding: 20px;
     font-size: 50px;
@@ -177,10 +177,11 @@ main {
 }
 
 #contenido h2 {
+    display: flex;
     color: #efb810;
     font-size: 45px;
     margin: 10px;
-    align-items: center;
+    text-align: center;
 }
 
 #contenido p {
@@ -208,9 +209,10 @@ main {
     display: flex;
     justify-content: center;
     margin: 25px;
-    color: aliceblue;
+    color: #efb810;
     font-size: 30px;
     align-items: center;
+    -webkit-text-stroke: 0.5px rgb(253, 253, 253);
 }
 
 @property --rotate {
@@ -302,6 +304,34 @@ main {
     animation: spin 2.5s linear infinite;
 }
 
+#boton button {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 50px 0px 0px 0px;
+    cursor: pointer;
+}
+
+#cosasEmpresa {
+    display: flex;
+    align-items: center;
+}
+
+#contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25px;
+    background: #73777B;
+    padding: 15px;
+    border-radius: 6px;
+    justify-content: center;
+}
+
 @keyframes spin {
     0% {
         --rotate: 0deg;
@@ -316,6 +346,10 @@ main {
         display: flex;
         padding: 10px;
         font-size: 20px;
+        display: flex;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
     }
     .logo img {
         width: 80px;
