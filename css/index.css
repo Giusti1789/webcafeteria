@@ -24,8 +24,7 @@ header important {
     max-width: 1200px;
     margin: auto;
     align-items: center;
-    justify-content: space-between;
-    gap: 30px;
+    justify-content: center;
     padding: 20px;
     font-size: 50px;
 }
@@ -34,7 +33,6 @@ header important {
     color: #efb810;
     border-color: aliceblue;
     -webkit-text-stroke: 1px rgb(253, 253, 253);
-    /* font-size: 25px; */
 }
 
 .logo img {
@@ -199,9 +197,8 @@ main {
 #cardProductos {
     display: flex;
     flex-wrap: wrap;
-    /* margin: 15px; */
     justify-content: center;
-    gap: 30px;
+    gap: 20px;
 }
 
 .titulo {
@@ -403,14 +400,15 @@ main {
     .header__superior {
         display: flex;
         padding: 10px;
-        font-size: 15px;
+        font-size: 20px;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
     }
     .logo img {
         width: 80px;
     }
     nav>ul {
+        display: flex;
         flex-direction: column;
         background-color: rgb(17, 17, 17);
         position: relative;
@@ -421,6 +419,7 @@ main {
         z-index: 100;
         opacity: 0;
         visibility: hidden;
+        align-items: flex-start;
     }
     nav>ul>li>a:hover {
         transform: scale(1);
