@@ -274,7 +274,7 @@ main {
     width: 104%;
     height: 102%;
     border-radius: 8px;
-    background-image: linear-gradient( var(--rotate), #5ddcff, #3c67e3 43%, #4e00c2);
+    background-image: linear-gradient( var(--rotate), #5ddcff, #efb810 43%, #4e00c2);
     position: absolute;
     z-index: -1;
     top: -1%;
@@ -396,6 +396,50 @@ main {
     }
 }
 
+#negocio {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* <!-- tabla --> */
+
+.tabla {
+    /* border-collapse: collapse; */
+    margin: 25px 0;
+    font-size: 2Fem;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+}
+
+.tabla thead tr {
+    background-color: #d9edf7;
+    color: #1B3360;
+    text-align: middle;
+}
+
+.tabla th,
+.tabla td {
+    padding: 12px 15px;
+}
+
+.tabla tbody tr {
+    border-bottom: 1px solid #73bbeb;
+}
+
+.tabla tbody tr:nth-of-type(even) {
+    background-color: #9583b6;
+}
+
+.tabla tbody tr:last-of-type {
+    border-bottom: 2px solid #1bcca9;
+}
+
 @media screen and (max-width: 740px) {
     .header__superior {
         display: flex;
@@ -488,5 +532,8 @@ main {
     }
     #cosasEmpresa iframe {
         width: 100%;
+    }
+    .tabla {
+        font-size: 0.8em;
     }
 }
