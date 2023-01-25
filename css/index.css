@@ -167,7 +167,7 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 25px;
-    background: #191c29;
+    background: #0e2aa8;
     padding: 15px;
     border-radius: 6px;
     justify-content: center;
@@ -183,7 +183,6 @@ main {
 #contenido p {
     color: aliceblue;
     margin: 10px;
-    text-align: justify;
 }
 
 #productos {
@@ -407,7 +406,6 @@ main {
 /* <!-- tabla --> */
 
 .tabla {
-    /* border-collapse: collapse; */
     margin: 25px 0;
     font-size: 2Fem;
     font-family: sans-serif;
@@ -433,11 +431,42 @@ main {
 }
 
 .tabla tbody tr:nth-of-type(even) {
-    background-color: #9583b6;
+    background-color: #73777B;
 }
 
 .tabla tbody tr:last-of-type {
     border-bottom: 2px solid #1bcca9;
+}
+
+.tabla2 {
+    /* background-color: #9583b6; */
+    margin: 25px 0;
+    font-size: 2Fem;
+    font-family: sans-serif;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    overflow-x: auto;
+    border: 1px solid #ddd;
+    /* color: #1B3360; */
+}
+
+.tabla2 thead tr {
+    background-color: #d9edf7;
+    color: #1B3360;
+    text-align: middle;
+}
+
+.tabla2 th,
+.tabla2 td {
+    padding: 10px 10px;
+}
+
+.tabla2 tbody tr {
+    border-bottom: 1px solid #032f4d;
+}
+
+.tabla2 tbody tr:nth-of-type(even) {
+    background-color: #73777B;
 }
 
 @media screen and (max-width: 740px) {
@@ -535,5 +564,22 @@ main {
     }
     .tabla {
         font-size: 0.8em;
+    }
+    .tabla2 {
+        font-size: 0.8em;
+    }
+    .tabla2 th,
+    .tabla2 td {
+        padding: 6px 5px;
+    }
+    .tabla2 {
+        background-color: #9583b6;
+        margin: 5px 0;
+        font-family: sans-serif;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+        width: 100%;
+        overflow-x: auto;
+        border: 1px solid #ddd;
+        color: #1B3360;
     }
 }
