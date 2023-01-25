@@ -573,13 +573,11 @@ main {
         padding: 6px 5px;
     }
     .tabla2 {
-        background-color: #73777B;
         margin: 5px 0;
         font-family: sans-serif;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
         width: 100%;
         overflow-x: auto;
         border: 1px solid #ddd;
-        color: #1B3360;
     }
 }
