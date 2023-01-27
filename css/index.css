@@ -469,6 +469,26 @@ main {
     background-color: #73777B;
 }
 
+footer {
+    background-color: #000000;
+    padding: 3%;
+    text-align: center;
+}
+
+footer logotipo-footer {
+    margin-bottom: 20%;
+}
+
+footer p {
+    color: #fff;
+    font-size: 24px;
+}
+
+.iconos-redes-header {
+    width: 30px;
+    margin: 10px 5px;
+}
+
 @media screen and (max-width: 740px) {
     .header__superior {
         display: flex;
