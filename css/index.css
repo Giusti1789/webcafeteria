@@ -21,7 +21,7 @@ header important {
 
 .header__superior {
     display: flex;
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
     align-items: center;
     justify-content: center;
@@ -47,13 +47,13 @@ header important {
 
 .container__menu {
     width: 100%;
-    height: 70px;
+    height: 80px;
     background: #050505;
     padding: 0px 20px;
 }
 
 .menu {
-    max-width: 1200px;
+    max-width: 100%;
     margin: auto;
     height: 100%;
     align-items: center;
@@ -86,7 +86,7 @@ nav>ul>li>a {
 }
 
 ul li a {
-    font-size: 30px;
+    font-size: 35px;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: transparent;
@@ -157,9 +157,9 @@ main {
     display: flex;
 }
 
-.fotoPortada img {
-    max-width: 100%;
-    width: 100%;
+#descripcion img {
+    max-width: 600px;
+    height: auto;
 }
 
 #contenido {
@@ -167,9 +167,8 @@ main {
     flex-direction: column;
     align-items: center;
     margin: 25px;
-    background: #0e2aa8;
     padding: 15px;
-    border-radius: 6px;
+    border-radius: 8px;
     justify-content: center;
 }
 
@@ -189,7 +188,6 @@ main {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 40px;
     align-items: center;
 }
 
@@ -236,13 +234,13 @@ main {
 }
 
 .card {
-    margin: 25px;
+    margin: 15px;
     background: #191c19;
     width: var(--card-width);
     height: var(--card-height);
     padding: 3px;
     position: relative;
-    border-radius: 6px;
+    border-radius: 7px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -481,7 +479,7 @@ footer logotipo-footer {
 
 footer p {
     color: #fff;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .iconos-redes-header {
